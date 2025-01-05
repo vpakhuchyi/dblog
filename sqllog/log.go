@@ -8,7 +8,6 @@ import (
 	"go.uber.org/zap/zapcore"
 
 	"dblog/formatter"
-
 	"dblog/trace"
 )
 
