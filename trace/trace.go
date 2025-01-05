@@ -6,11 +6,11 @@ import (
 	"github.com/google/uuid"
 )
 
-// CorrelationID is the type used to store the correlation ID in the context.
-type CorrelationID struct{}
+// correlationID is the type used to store the correlation ID in the context.
+type correlationID struct{}
 
 // contextKey is the key used to store the correlation ID in the context.
-var contextKey = CorrelationID{}
+var contextKey = correlationID{}
 
 // GenerateCorrelationID generates a new UUID as correlation ID.
 func GenerateCorrelationID() string {
